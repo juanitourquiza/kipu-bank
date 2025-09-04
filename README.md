@@ -60,7 +60,10 @@ El contrato **KipuBank** requiere dos parámetros en su constructor:
 - **Estado consistente**: Actualiza balances antes de interacciones externas
 
 ## 📋 Dirección del contrato desplegado
-*[Pendiente - Agregar después del despliegue]*
+
+**Testnet Sepolia**: [`0x3aCA094C70D5198541BE52C828703A84D66deE94`](https://sepolia.etherscan.io/address/0x3aCA094C70D5198541BE52C828703A84D66deE94)
+
+🔍 **Verificar en Etherscan**: [Ver contrato en Sepolia Etherscan](https://sepolia.etherscan.io/address/0x3aCA094C70D5198541BE52C828703A84D66deE94)
 
 ## 🛠️ Stack tecnológico
 - **Solidity**: ^0.8.29
