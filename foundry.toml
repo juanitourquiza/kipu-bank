@@ -1,0 +1,21 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.29"
+
+# Optimizaciones de compilación
+optimizer = true
+optimizer_runs = 200
+
+# Configuración de tests
+gas_reports = ["*"]
+gas_price = 10
+
+# Configuración para testnets
+[rpc_endpoints]
+sepolia = "${SEPOLIA_RPC_URL}"
+mainnet = "${MAINNET_RPC_URL}"
+
+[etherscan]
+sepolia = { key = "${ETHERSCAN_API_KEY}" }

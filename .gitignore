@@ -10,6 +10,28 @@ states/
 *.dbg.json
 *.tsbuildinfo
 
-# Optional
+# Environment variables
 .env
 .env.local
+.env.*.local
+
+# Foundry
+cache/
+out/
+lib/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
